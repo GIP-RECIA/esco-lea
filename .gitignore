@@ -14,8 +14,7 @@
 # Configuration
 # files
 ###################
-configuration*.ini
-!configuration*.example.ini
+config*.inc.php
 
 ###################
 # Log files
