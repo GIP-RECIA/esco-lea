@@ -1,0 +1,21 @@
+/*
+Thème : LEA - CUB
+Auteur : Charles-Ulysse BEILLEVERT
+Conditions d'utilisation : - cc - Merci de conserver les nom et pr�nom de l'auteur pour toute utilisation
+*/
+
+@import url(commun.css);
+
+#arbre  li{		
+		list-style-position: inside;
+		list-style-type: none;		
+		font-size:11px;
+		text-align: justify;
+	}
+#arbre {
+		background: #FFFFFF;	
+		font-size: 12px ;
+		text-align: left;
+		}	
+			
+				

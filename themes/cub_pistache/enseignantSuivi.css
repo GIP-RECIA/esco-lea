@@ -1,0 +1,118 @@
+/*
+Thème : LEA - CUB
+Auteur : Charles-Ulysse BEILLEVERT
+Conditions d'utilisation : - cc - Merci de conserver les nom et pr�nom de l'auteur pour toute utilisation
+*/
+@import url(commun.css);
+
+a.arbo {
+	background: #dfeffc;
+	border: 1px dotted #0c83ae;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+span.libelle {
+	background: #dfeffc;
+	border: 1px dotted #0c83ae;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+#top_m img {
+	margin: 0 5px 5px 0;
+}
+
+#arbre {
+	font-size: 12px;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+li.feuille span.likeA {
+	display: block;
+	margin-top: -6px !important;
+	margin-top: -8px;
+}
+
+li.branche span.likeA {
+	display: block;
+	margin-top: -14px !important;
+	margin-top: -10px;
+	margin-left: 28px;
+	/* position: absolute; */
+}
+
+#contenu li.arbre {
+	list-style-position: inside;
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+#contenu ul {
+	padding-left: 20px;
+}
+
+#contenu li.feuille {
+	list-style-position: inside;
+	list-style-type: none;
+	text-transform: none;
+	margin-top: 10px;
+}
+
+#contenu li.feuille a {
+	padding-top: 5px;
+}
+
+#contenu li.branche {
+	list-style-position: inside;
+	list-style-type: none;
+	text-transform: uppercase;
+	margin-top: 12px;
+}
+
+#contenu li.branche a {
+	padding-top: 5px;
+}
+
+a.lienarbre {
+	background: url(images/picto_arbre.png) top left no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-decoration: none !important;
+}
+
+a.lienbranche {
+	background: url(images/picto_branche.png) top left no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-decoration: none !important;
+}
+
+a.lienfeuille {
+	background: url(images/picto_feuille.png) top left no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-decoration: none !important;
+}
+
+a.lienarbre:hover {
+	background: url(images/picto_arbre_hover.png) top left no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-decoration: none !important;
+}
+
+a.lienbranche:hover {
+	background: url(images/picto_branche_hover.png) top left no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-decoration: none !important;
+}
+
+a.lienfeuille:hover {
+	background: url(images/picto_feuille_hover.png) top left no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-decoration: none !important;
+}

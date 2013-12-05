@@ -1,0 +1,105 @@
+"id_aide","texte_aide","titre_aide","url_image_aide"
+"2","L'apprenti pourra joindre des documents lorsqu'il saisira des données sur LEA. Ces documents seront accessibles par les acteurs autorisés du livret.","Joindre des fichiers à la déclaration",
+"3","Une déclaration est effectuée pour une période en particulier. Chaque période comporte une date de fin. Après cette date, on accepte un certain délai au delà duquel la déclaration sera bloquée et non modifiable. Ex : 15 jours, pour une période allant du 01/01/2006 au 31/01/2006, laissent jusqu'au 15/02/2006 aux acteurs du livret four effectuer leur déclaration. Passée cette date, la déclaration est vérouillée en l'état.
+NB : ce délai s'applique de façon homogène à toutes les déclarations, quelles que soient les périodes.","La durée d'activation d'une déclaration",
+"4","La modalité "" libre "" permet aux acteurs du livret de saisir dans LEA certaines appréciations.  les données saisies seront enregistrées par LEA et disponibles, mais elles ne feront pas l'objet d'un traitement statistique.","Déclaration d'activités libre",
+"5","La déclaration d'activités "" guidée "" oriente l'apprenti, ou tout autre acteur, en lui proposant de compléter certaines données. Il est ainsi guidé par une arborescence que vous serez amené à élaborer (exemple d'arborescence : référentiel métier, référentiel de tâches, programme de formation...).
+Les données saisies (évaluant par exemple : des activités réalisées, des matières abordées, des compétences acquises...) feront l'objet d'un traitement statistique par LEA. Ceci permet à l'apprenti de s'évaluer au regard de critères de performance (nombre de fois mini, note maxi, acquis/en cours d'acquisition/non acquis, etc.) que vous allez déterminer.","Déclaration d'activités guidée avec un référentiel",
+"8","Indiquez ici l'acteur du livret à qui vous proposez la, ou les, modalité que vous allez déterminer.
+Une modalité proposée à un acteur va déterminer la façon dont celui-ci saisira des données sur le livret. Il peut s'agir de champ libre (texte), d'une liste de choix (à cliquer), etc.
+Pour créer une nouvelle modalité à l'acteur choisi, cliquez sur  "" Proposer une modalité "".
+
+NB : Vous retrouvez dans ce menu déroulant la désignation des acteurs que vous avez décidé (sur la page précédente) d'utiliser.","Modalités",
+"10","Aperçu de la modalité créée","Affichage comme suit",
+"11","La modalité traitée apparaîtra aux dates suivantes, comptant un délai de 15 jours après l'échéance affichée. Les périodes sont définies dans la rubrique préalable « mettre à jour les périodes ».","Déclaration aux périodes suivantes",
+"15","Donnez un titre significatif à la modalité que vous allez créer. Ce sont les mots, ou la phrase, que vous allez écrire ici qui seront proposés à l'acteur concerné. Exemple :"" Votre avis sur la période en entreprise "" ou bien "" Inscrivez ici les activités réalisées durant la période "", etc.","Nouvelle modalité de saisie",
+"16","Indiquez ici l'acteur du livret à qui vous proposez la, ou les, modalité que vous allez déterminer. Elle devra losqu'elle se connectera à LEA compléter la rubrique que vous proposez.
+
+NB : Vous retrouvez dans ce menu déroulant la désignation des acteurs que vous avez décidé (sur la page précédente) d'utiliser.
+","Nouvelle modalité de saisie",
+"17","Choisissez ici les périodes auxquelles la modalité sera proposée à l'acteur concerné","Nouvelle modalité de saisie",
+"19","Indiquez ici le nombre de choix proposés à l'utilisateur. (ex : 3 choix pour ""acquis, en cours d'acquisition, non acquis "" ).","Liste de choix",
+"20","Intitulé de la réponse ","Titre du choix(n)",
+"21","L'apprenti ne peut cocher qu'une seule réponse parmis tous les choix proposés","Choix unique",
+"22","L'apprenti peut cocher plusieurs réponses parmis les choix proposés","Choix multiple",
+"23","La déclaration d'activités guidée avec un référentiel oriente l'apprenti, ou tout autre acteur, en lui proposant de compléter des données. Pour ce faire, il devra suivre une arborescence que vous allez concevoir.
+
+Pour effectuer le suivi d'un apprenti, que ce soit en entreprise ou au centre de formation, on peu utiliser un tableau de compétences, un programme, etc. Souvent sous la forme de tableaux, ces référentiels peuvent prendre la forme d'une arborescence. C'est ce fonctionnement qu'adopte LEA.
+( voir schéma ci-dessous )
+
+Chaque "" branche ""appartient à un "" niveau "". Cet arbre possède deux "" niveaux "", le dernier étant le niveau "" feuille"". Les"" branches "" et les "" feuilles ""  portent chacune un nom (ici : Coquilles...... pour les branches et : ,,,,, pour les feuilles.
+
+ La validation se fait toujours au niveau d'une "" feuille "". Dans l'exemple, l'utilisateur devra indiquer pour chaque feuille si l'activité est acquise;;;)
+
+Les données saisies feront l'objet d'un traitement statistique par LEA. Ceci permet à l'apprenti de s'évaluer au regard de critères de performance que vous allez déterminer (ici par exemple : nombre de fois où une activité doit être acquise). Cela permet aussi à un enseignant de mesurer, par exemple,  l'évolution des acquisistions d'un apprenti en regard de sa classe.","Création d'un arbre pour le suivi guidé en entreprise","arbre.jpg"
+"24","L'arbre correspond à la forme adoptée pour référencier les données. Un thème, ou ensemble, représente un tronc qui se décompose en différentes branches correspondant aux niveaux chronologiques à compléter par les protagonistes. Chaque branche se décompose en feuilles, ou taches, finalités de l'arbre.","L'arbre",
+"25","Niveaux successifs (exemple d'intitulés pour deux niveaux : « activités », suivi de « taches »)
+","Libellé des niveaux",
+"26","Entrer les données correspondant au premier niveau, puis en cliquant sur cette information, remplir le champ de texte du second niveau (exemple : niveau « activités » : pâtisserie,  tâche : tarte aux fraises)","Modifier le contenu",
+"27","Dernier niveau de l'arborescence","Feuille",
+"28","Changer le contenu d'une tache","Modifier ou mettre à jour une feuille",
+"29","Changer le titre du contenu de la feuille ","Modifier le libellé",
+"30","Les critères de performance vont permettre aux apprentis d'être suivis selon un axe de travail commun, ou encore comparés entre eux. Ces critères sont établis dans la rubrique ""validation""
+Les objectifs de performance doivent restés cohérents avec le nombre de tâches et le nombre de périodes.  
+Les précisions apportées à la déclaration , s'afficheront devant chaque tâche déclarée. 
+Les étapes suivantes consistent à modifier le niveau de performance attendu (nombre de fois qu'une tache x devra-t-être déclarée par l'apprenti, par exemple). 
+Les précisions apportées à la déclaration s'afficheront devant chaque tâche déclarée
+Si un 0 (fois) est conservé, cela signifie qu'aucun objectif n'est fixé pour une tâche, ce qui n'empêche pas l'apprenti de la déclarer. Elle sera alors automatiquement considérée comme validée.","Critères de performance",
+"31","L'apprenti devra déclarer avoir effectué, au moins un certain nombre de fois, l'action de la modalité, de manière autonome","Réalisation d'une tache en autonomie",
+"32","L'apprenti devra déclarer avoir effectué, au moins un certain nombre de fois, l'action de la modalité, en profitant d'une aide (de son maître de stage par exemple)","Réalisation d'une tache assisté",
+"33","L'apprenti devra déclarer avoir acquis la tâche, au moins un certain nombre de fois sur l'ensemble des périodes","Acquisition de la tâche",
+"34","L'apprenti pourra déclaré au moins... fois ne pas avoir acquis une tâche","Non acquisition de la tâche",
+"35","Déterminer le barème sur lequel l'apprenti sera évalué (exemple : notes sur 20, sur 10, etc)","Ratio d'évaluation",
+"36","Apporter des modification au titre de l'arbre ainsi qu'aux intitulés des niveaux. Les titres attribués précédemment aux feuilles ne sont pas modifiables.
+","Modifier l'intitulé de l'arbre",
+"37","Supprimer l'arbre entier. Toutes les informations initialisées seront effacées.","Supprimer l'arbre",
+"38","Effacer le contenu de l'arbre. L'arbre, son intitulé et ses niveaux seront toujours existants. Seule la totalité des tâches de chaque niveau sera supprimée.","Vider l'arbre",
+"39","Afficher l'arborescence de l'arbre afin de visionner la structure des tâches créées précédemment.","Afficher l'arbre",
+"40","La validation consiste à apporter des précisions aux déclarations. En créant une modalité de validation, vous pourrez définir la personne qui devra apporter les précisions pour une période donnée. Un type de traitement des informations est à choisir : sous forme de fréquence, de ratio, de texte ou d'une liste de choix. ","Valider l'arbre",
+"41","Affichage de la globalité du contenu de l'arbre. 
+En cliquant sur le graphique d'une tâche, il est possible de mettre à jour les critères de performance qui peuvent avoir déjà été établi lors de la première étape de modification du contenu. 
+Les objectifs de performance doivent restés cohérents avec le nombre de tâches et le nombre de périodes. 
+Grâce à cette fonctionnalité, l'arbre atteint sa maturité : les apprentis peuvent être comparés entre eux, par rapport à des critères définis. 
+","Performance",
+"42","Vous pouvez ici établir des périodes. Ces périodes correspondent à des déclarations réalisées par l'un des acteurs du livret. Il peut s'agir de périodes calendaires régulières (ex : période 1, du 01/01/2006 au 31/01/2006, 01/02/2006 au 28/02/2006) ou occasionnelles (ex :bilan fin d'année, du 20/12/2006 au 22/12/2006). LEA prendra en compte la date de fin de période comme une date d'échéance.","Mettre à jour le calendrier des périodes",
+"43","Vous pouvez ici élaborer l'environnement de suivi de l'apprenti en entreprise.
+C'est ici que vous pourrez désigner le nom de la personne référente de l'apprenti en entreprise ainsi que la personne responsable pédagogiquement qui suit l'apprenti pour le centre de formation.
+Ce suivi peut être guidé : LEA pourra effectuer des opérations statistiques avec les données saisies par les acteurs du livret; ou libre : les données saisies seront enregistrées par LEA et disponibles mais ne feront pas l'objet d'un traitement statistique.","Configurer le suivi de vos apprentis en entreprise",
+"44","Cette fonctionnalité permet d'élaborer l'environnement de suivi de l'apprenti au CFA. Les étapes suivantes vont vous permettre de créer une arborescence, assimilable à la forme d'un arbre. Cet arbre servira de lien direct entre le CFA et l'apprenti. Vous aurez la possibilité d'instaurer des modules pouvant concerner aussi bien les matières de travail évaluées, les compétences, que les programmes, etc. 
+Le suivi pourra être effectué de manière libre ou bien guidée. Un suivi libre consiste à permettre à l'apprenti de remplir, en autonomie, des champs de texte ou cocher des cases , correspondant à une rubrique. Les données que l'élève aura fourni seront informatives et différentes selon les apprentis. 
+Le suivi guidé va également autoriser l'apprenti à compléter des champs par des informations concernant son travail, mais elles seront à caractère général et commun à tous les élèves de la classe. Ces modules concernent les notes, la réalisation de tâches définies selon une fréquence fixée, référentielle, etc. Ainsi les critères de suivi commun à la classe, permettront à  l'apprenti d'être évalué selon une référence de temps, de travail effectué ou encore comparé aux autres élèves. ","Configurer le suivi de vos apprentis au CFA",
+"45","La mise à jour de la liste des enseignants de la formation permet d'accéder à l'ensemble des enseignants du CFA. Les noms sont classés en ordre alphabétique. Vous pourrez ainsi cocher les enseignants intervenant dans la formation que vous traitez actuellement.","Mettre à jour la liste des enseignants de votre formation",
+"46","Cette rubrique vous permet d'attribuer ou de modifier, le tuteur propre à  chaque apprenti. ","Mettre à jour les TUTEUR(s) de vos apprentis",
+"47","Il vous est proposé choisir vous même le graphisme que vous souhaitez attribuer au site, espace de travail commun aux apprentis, maître d'apprentissage, tuteurs, enseignants, parents. 
+Vous pourrez intégrer votre propre logo du CFA, ou en choisir un préexistant dans une liste.
+L'image de la page d'accueil, de la formation concernée, peut également être intégrée librement, ou emprunter à une bibliothèque d'image disponibles.
+Un choix de couleurs et d'organisation des menus vous est également proposé, à travers deux styles graphiques. 
+","Configurer la charte graphique de votre formation",
+"48","Mettre à jour le calendrier des périodes 
+Cette première étape permet d'établir des périodes, selon l'ordre que vous désirez. Ces périodes seront associées à des tâches, qui devront se dérouler durant les dates spécifiées. A la création de l'arborescence des modalités (étape suivant), vous retrouverez cette période, et ainsi leur attribuer un contenu de tâches. Les périodes sont des limites temporelles référentielles.  
+Vous aurez la possibilité de choisir à quelles classes seront déclarées les périodes que vous aurez définies.
+
+Configurer le suivi de vos apprentis en entreprise 
+Cette fonctionnalité permet d'élaborer l'environnement de suivi de l'apprenti en entreprise. Les étapes suivantes vont vous permettre de créer une arborescence, assimilable à la forme d'un arbre. Cet arbre servira de lien direct entre l'entreprise et l'apprenti. Vous aurez la possibilité d'instaurer des modules pouvant concerner aussi bien les matières de travail évaluées, les compétences, que les programmes, etc. 
+Le suivi pourra être effectué de manière libre ou bien guidée. Un suivi libre consiste à permettre à l'apprenti de remplir, en autonomie, des champs de texte ou cocher des cases , correspondant à une rubrique. Les données que l'élève aura fourni seront informatives et différentes selon les apprentis. 
+Le suivi guidé va également autoriser l'apprenti à compléter des champs par des informations concernant son travail, mais elles seront à caractère général et commun à tous les élèves de la classe. Ces modules concernent les notes, la réalisation de tâches définies selon une fréquence fixée, référentielle, etc. Ainsi les critères de suivi commun à la classe, permettront à  l'apprenti d'être évalué selon une référence de temps, de travail effectué ou encore comparé aux autres élèves. 
+
+Configurer le suivi de vos apprentis au CFA  
+Cette fonctionnalité permet d'élaborer l'environnement de suivi de l'apprenti au CFA. Les étapes suivantes vont vous permettre de créer une arborescence, assimilable à la forme d'un arbre. Cet arbre servira de lien direct entre le CFA et l'apprenti. Vous aurez la possibilité d'instaurer des modules pouvant concerner aussi bien les matières de travail évaluées, les compétences, que les programmes, etc. 
+Le suivi pourra être effectué de manière libre ou bien guidée. Un suivi libre consiste à permettre à l'apprenti de remplir, en autonomie, des champs de texte ou cocher des cases , correspondant à une rubrique. Les données que l'élève aura fourni seront informatives et différentes selon les apprentis. 
+Le suivi guidé va également autoriser l'apprenti à compléter des champs par des informations concernant son travail, mais elles seront à caractère général et commun à tous les élèves de la classe. Ces modules concernent les notes, la réalisation de tâches définies selon une fréquence fixée, référentielle, etc. Ainsi les critères de suivi commun à la classe, permettront à  l'apprenti d'être évalué selon une référence de temps, de travail effectué ou encore comparé aux autres élèves. 
+
+Mettre à jour la liste des enseignants de votre formation 
+La mise à jour de la liste des enseignants de la formation permet d'accéder à l'ensemble des enseignants du CFA. Les noms sont classés en ordre alphabétique. Vous pourrez ainsi cocher les enseignants intervenant dans la formation que vous traitez actuellement.
+
+
+Mettre à jour les TUTEUR(s) de vos apprentis 
+Cette rubrique vous permet d'attribuer ou de modifier, le tuteur propre à  chaque apprenti. 
+
+Configurer la charte graphique de votre formation 
+Il vous est proposé choisir vous même le graphisme que vous souhaitez attribuer au site, espace de travail commun aux apprentis, maître d'apprentissage, tuteurs, enseignants, parents. 
+Vous pourrez intégrer votre propre logo du CFA, ou en choisir un préexistant dans une liste.
+L'image de la page d'accueil, de la formation concernée, peut également être intégrée librement, ou emprunter à une bibliothèque d'image disponibles.
+Un choix de couleurs et d'organisation des menus vous est également proposé, à travers deux styles graphiques. ","Aide générale",
+"49","Déterminer les critères de suivi de l'apprenti en établissant des rubriques que soit le maître d'apprentissage, le parent, le tuteur, l'enseignant de la formation, le responsable de la formation, ou encore  l'apprenti lui même, devra compléter","Elaboration de l'environnement de suivi libre au CFA",
+50,"<br/>&lt;?xml version=""1.0"" encoding=""UTF-8""?&gt;<br/>&lt;arbre&gt;<br/>&nbsp;&nbsp;&nbsp;&lt;niveaux&gt;<br/>&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&lt;niveau&gt;...&lt;/niveau&gt;<br/>&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&lt;niveau&gt;...&lt;/niveau&gt;<br/>&nbsp;&nbsp;&nbsp;&lt;/niveaux&gt;<br/>&nbsp;&nbsp;&nbsp;&lt;branche&gt;...<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;branche&gt;...<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feuille&gt;...&lt;/feuille&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feuille&gt;...&lt;/feuille&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/branche&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;branche&gt;...<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feuille&gt;...&lt;/feuille&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feuille&gt;...&lt;/feuille&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/branche&gt;<br/>&nbsp;&nbsp;&nbsp;&lt;/branche&gt;<br/>&lt;/arbre&gt;","Exemple de structure du fichier XML à importer :   ",

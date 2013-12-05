@@ -1,0 +1,261 @@
+/*
+Th�me : LEA - CUB
+Auteur : Charles-Ulysse BEILLEVERT
+Conditions d'utilisation : - cc - Merci de conserver les nom et pr�nom de l'auteur pour toute utilisation
+*/
+@import url(commun.css);
+
+#contenu dl {
+	border: 1px dotted #0c83ae !important;
+	border: 1px solid #a5daf5;
+	margin: 0 2em 0 2em;
+	padding: 0;
+}
+
+#contenu dl p {
+	font-size: 0.8em;
+}
+
+#contenu dt {
+	border-right: 1px dotted #0c83ae !important;
+	border-right: 1px solid #a5daf5;
+	float: left;
+	margin: 0;
+	padding: 1em;
+	width: 250px;
+}
+
+#contenu fieldset {
+	border: 0;
+	margin: 2em;
+	padding: 0;
+}
+
+#contenu input.submit {
+	margin: 0 0 2em 0;
+}
+
+#contenu ul.liste li {
+	list-style-type: none;
+	margin: 0.5em 0.5em 1em 5em;
+	padding: 0 1em 0 60px;
+	text-align: center;
+}
+
+#contenu span p {
+	display: inline;
+}
+
+#contenu table {
+	margin: 1em 0 3em 1em;
+	padding: 0;
+	width: 97%;
+}
+
+#contenu th {
+	padding: 0.5em;
+	text-align: center;
+}
+
+#contenu td {
+	padding: 0.5em;
+	text-align: justify;
+}
+
+#contenu ul.suivi,#contenu ul.menuConfig {
+	margin: 0;
+	padding: 0;
+}
+
+#contenu ul.menuConfig li {
+	list-style-position: inside;
+	list-style-type: none;
+	height: 50px;
+	margin: 0.5em 0.5em 1em 5em;
+	padding: 0 1em 0 60px;
+	text-align: justify;
+	width: 70%;
+}
+
+#contenu ul.menuConfig li.configSuivi {
+	background: url(images/default_picto_configuration.png) top left
+		no-repeat;
+}
+
+#contenu ul.menuConfig li.termino {
+	background: url(images/default_picto_lettre.png) top left no-repeat;
+}
+
+#contenu ul.menuConfig li.aide {
+	background: url(images/picto_pdf.gif) top left no-repeat;
+}
+
+#contenu ul.menuConfig li.miseAJour {
+	background: url(images/default_picto_actualisation.png) top left
+		no-repeat;
+}
+
+#contenu ul.menuConfig li.calendar {
+	background: url(images/default_picto_calendar.png) top left no-repeat;
+}
+
+#contenu ul.menuConfig li.charte {
+	background: url(images/default_picto_charte.png) top left no-repeat;
+}
+
+#contenu ul.menuConfig li.configExport {
+	background: url(images/default_picto_export.png) top left no-repeat;
+}
+
+#contenu ul.suivi li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#contenu ul.menuConfig a:link,#contenu ul.menuConfig a:visited {
+	color: #660099;
+	font-weight: bold;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#contenu ul.suivi a:link,#contenu ul.suivi a:visited {
+	border: 1px solid #2daedc;
+	color: #0c83ae;
+	font-weight: bold;
+	margin: 0.5em;
+	padding: 1em 1em 1em 4em;
+	text-decoration: none;
+}
+
+#contenu ul.suivi a:hover,#contenu ul.suivi a:active {
+	border: 1px solid #a5daf5;
+	color: #dfeffc;
+}
+
+#contenu ul.suivi a.suiviCFA:link,#contenu ul.suivi a.suiviCFA:visited {
+	background: url(images/default_picto_suiviCFA.png) top left no-repeat
+		#a5daf5;
+}
+
+#contenu ul.suivi a.suiviEntreprise:link,#contenu ul.suivi a.suiviEntreprise:visited
+	{
+	background: url(images/default_picto_suiviEntreprise.png) top left
+		no-repeat #a5daf5;
+}
+
+#contenu ul.suivi a.suiviCFA:hover,#contenu ul.suivi a.suiviCFA:active {
+	background: url(images/default_pictoHover_suiviCFA.png) top left
+		no-repeat #2daedc;
+}
+
+#contenu ul.suivi a.suiviEntreprise:hover,#contenu ul.suivi a.suiviEntreprise:active
+	{
+	background: url(images/default_pictoHover_suiviEntreprise.png) top left
+		no-repeat #2daedc;
+}
+
+#formation {
+	background: transparent;
+	margin: auto;
+	margin-top: 7%;
+	padding: 0;
+	width: 950px;
+	border: 1px solid #333333;
+}
+
+#formationSession {
+	font-size: 14px;
+	color: #000000;
+	background-image: url(images/head_x.gif);
+	padding: 15px;
+	/*border-bottom: 2px solid #FDBE31;*/
+}
+
+#formationSession a {
+	display: block;
+	background-image: url(images/picto_quitter.gif);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	width: 100px;
+	margin: auto;
+	color: #333333;
+	margin-top: 10px;
+}
+
+#formationSession a:link,#formationSession a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#formationSession a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#formationContenu {
+	background: url(images/default_bandeauAccueil2.png);
+	background-repeat: no-repeat;
+	background-color: #20A1D1;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 1em 0 1em 4em;
+	text-align: center;
+	border-top: 1px solid #333333;
+}
+
+#formationContenu a:link,#formationContenu a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#formationContenu a:hover {
+	color: #99CC00;
+}
+
+#formationContenu img {
+	margin: 10px;
+	vertical-align: middle;
+	height: 50px;
+	width: 50px;
+}
+
+#formationContenu p {
+	color: #ffffff;
+	font-size: 2em;
+	margin: 0 0 1.5em 0;
+}
+
+#formationFooter {
+	clear: both;
+	margin: 0 0 0 0;
+	border-top: 1px solid #333333;
+	background: url(images/footer_x.gif) repeat-x;
+	height: 74px;
+	font-size: 11px;
+	letter-spacing: 2px;
+	color: #666666;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-indent: 25px;
+	overflow: hidden;
+}
+
+#formationFooter a:link,#formationFooter a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#formationFooter a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#formationFooter p {
+	padding-top: 10px !important;
+	padding-top: 20px;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="arbre">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="niveaux"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="branche"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="feuille"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="niveaux">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="niveau"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="niveau" type="xs:string"/>
+  <xs:element name="branche">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="branche"/>
+        <xs:element ref="feuille"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="feuille" type="xs:string"/>
+</xs:schema>

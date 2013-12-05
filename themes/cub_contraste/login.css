@@ -1,0 +1,165 @@
+/*
+Th�me : LEA - CUB
+Auteur : Charles-Ulysse BEILLEVERT
+Conditions d'utilisation : - cc - Merci de conserver les nom et pr�nom de l'auteur pour toute utilisation
+*/
+*{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:url(images/fond_hachures.gif) repeat;
+	width: 100%;
+}
+
+html {
+	width: 100%;
+}
+
+#conteneur{	
+	background-color: #EEEEEE;	
+	width: 949px;
+	border: 1px solid #333333;
+	height: 310px;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -476px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#logo{
+	background: url(images/logo.jpg) no-repeat;
+	width: 492px;
+	height: 197px;
+	float: left;
+	border-bottom: 1px solid #333333;
+	border-right: 1px solid #333333;
+}
+
+#version {
+	width: 100%;
+	border: 0px;	
+	font-size: 14px;
+	font-variant: normal;
+	font-weight: normal;
+	color: white;
+}
+
+#version tr {
+	text-align: left;
+}
+
+#version td {
+	padding-top:52px;
+	padding-left:425px;
+}
+
+#visuel{
+	display: table-cell;
+	vertical-align: middle;
+	background: url(images/bandeau_orange.jpg) no-repeat;
+	height: 197px;
+	width: 456px;
+	float:right;
+	overflow: hidden;
+	border-bottom: 1px solid #666666;
+}
+
+#nomlea{
+	height: 197px;
+	width: 426px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 40px;
+	margin-left: 30px;
+	padding-right: 10px;
+}	
+
+#zoneform {
+	background-image: url(images/bandeau_login.png);
+	background-repeat: repeat-x;
+	background-color: #AAD5FF;
+	text-align: center;
+	height: 30px;
+	width: 100%;
+	float: left;
+	border-bottom: 1px dashed #666666;
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding-top: 12px !important; 
+	padding-top: 10px;
+	padding-bottom: 0 !important; 
+	padding-bottom: 2px;
+	font-variant: small-caps;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+#zoneform input {
+	font-variant: normal;
+	font-weight: normal;
+	margin-right: 20px;
+	border: 1px solid #666666;
+	background-color: #FFFFFF;
+	font-size: 13px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#footer{
+	width: 900px;
+	margin: auto;
+	text-align: justify;
+	text-indent: 25px;
+	margin-bottom: 5px;
+	font-size: 11px;
+	letter-spacing: 2px;
+	color: #666666;
+}
+	
+#footer a:link, #footer a:visited{
+	color: #0f3f6a;
+	text-decoration: none;
+}
+		
+#footer a:hover{
+	color: #0f3f6a;
+	text-decoration: underline;
+}
+		
+#erreur_login {
+	float: left;
+	color: #FF0000;
+	font-weight: bold;		
+	width: 948px;
+	height: 29px;
+	margin: auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	top: 50%;
+	left: 50%;
+	margin-top: 47px;
+	margin-left: -474px;
+	position: absolute;
+	overflow: hidden;
+}
+#erreur_login img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+#creditsFooter {
+	display:none;
+}
+#creditLogo {
+	display:none;
+}
+
+#popup_aide img {
+	border: none;
+}

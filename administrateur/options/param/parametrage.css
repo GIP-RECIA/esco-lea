@@ -1,0 +1,263 @@
+#param
+{
+
+}
+
+#param .table_layout
+{
+	width:100%;
+	margin:0 auto;
+	margin-bottom:10px;
+	padding:5px;
+	border:1px solid #dadada;
+}
+
+#param .table_layout td
+{
+	border:0 !important;
+}
+
+#param .table_layout caption
+{
+	font-size:14px;
+	font-weight:bold;
+}
+
+#param #table_func .aide
+{
+	font-size:10px;
+	text-align:center;
+}
+
+#param .func
+{
+	position:relative;
+	width:203px;
+	min-height:50px;
+}
+
+#param .func_img
+{
+	cursor:pointer;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+
+#param .func_haut
+{
+	background-image:url("func_haut.jpg");
+	background-repeat:no-repeat;
+	width:203px;
+	height:12px;
+	
+	padding-left:189px;
+}
+
+#param .func_haut img
+{
+	cursor:pointer;
+}
+
+#param .func_mid
+{
+	padding-left:50px;
+	text-align:center;
+	border-left:1px solid #dadada;
+	border-right:1px solid #dadada;
+	height:26px;
+}
+
+#param .func_bas
+{
+	background-image:url("func_bas.jpg");
+	background-repeat:no-repeat;
+	width:203px;
+	height:12px;
+}
+
+#param .act, #param .inst
+{
+	background-image:url("bloc.jpg");
+}
+
+#param .act
+{
+	background-repeat:no-repeat;
+	position:relative;
+	height:75px;
+}
+
+#param .act_name
+{
+	padding-top:15px;
+	/*padding-left:11px;*/
+	padding-left:5px;
+	width:194px;
+	height:32px;
+}
+
+#param .act_text
+{
+	border:1px dashed black;
+	width:180px;
+}
+
+#param .act .act_text
+{
+	width:161px;
+}
+
+#param .act img
+{
+	position:relative;
+	top:-2px;
+}
+
+/* Gestion de l'enseignant pour l'agrandissement */
+
+#param #act_ens
+{
+	background-image:none;
+}
+
+#param #act_ens .act_haut
+{
+	background-image:url("act_haut.jpg");
+	background-repeat:no-repeat;
+	width:205px;
+	height:12px;
+}
+
+#param #act_ens .act_name
+{
+	padding-top:3px;
+	width:198px;
+	height:20px;
+	border-left:1px solid #dadada;
+	border-right:1px solid #dadada;
+}
+
+#param #act_ens .act_bas
+{
+	background-image:url("act_bas.jpg");
+	background-repeat:no-repeat;
+	width:205px;
+	height:12px;
+}
+
+#param #act_ens .act_taille
+{
+	cursor:pointer;
+	position:absolute;
+	top:4px;
+	right:22px;
+}
+
+/* institution */
+
+#param #table_inst .inst
+{
+	margin-bottom:10px;
+}
+
+#param #table_inst tr.marge td div
+{
+	margin-top:15px;
+}
+
+#param #table_inst td div
+{
+	margin:0 auto;
+}
+
+#param .inst, #param .inst_suivi
+{
+	position:relative;
+	background-repeat:no-repeat;
+	padding-top:15px;
+	padding-left:11px;
+	width:194px;
+	height:32px;
+}
+
+#param .inst_haut
+{
+	position:relative;
+	background-image:url("inst_haut.jpg");
+	background-repeat:no-repeat;
+	width:250px;
+	height:12px;
+}
+
+#param #inst_entr .inst_detail
+{
+	background-image:url("inst_detail.jpg");
+	padding-top:12px;
+	height:31px;
+	width:250px;
+	border:none;
+}
+
+#param .inst_detail
+{
+	background-image:none;
+	width:248px;
+	height:19px;
+	padding:0;
+	text-align:center;
+	border-left:1px solid #dadada;
+	border-right:1px solid #dadada;
+}
+
+#param .inst_bas
+{
+	background-image:url("inst_bas.jpg");
+	background-repeat:no-repeat;
+	width:250px;
+	height:12px;
+}
+
+#param .inst_taille
+{
+	position:absolute;
+	cursor:pointer;
+	top:3px;
+	right:3px;
+}
+
+#param .inst_detail .inst
+{
+	margin-top:12px !important;
+	width:205px;
+	padding-left:0;
+	margin-left:20px;
+	display:none;
+}
+
+#param .act img.suppression, #param .inst img.suppression, #param .act img.activation, #param .inst img.activation
+{
+	cursor:pointer;
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+
+#param .act img.suppression, #param .act img.activation
+{
+	top:4px;
+	right:15px;
+}
+
+/* Divers */
+
+#param .dessus
+{
+	position:absolute;
+	z-index:1500;
+}
+
+#param .cursor-supp
+{
+	cursor: pointer;
+}

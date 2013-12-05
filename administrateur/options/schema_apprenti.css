@@ -1,0 +1,282 @@
+/*
+Thème : LEA - CUB
+Auteur : Charles-Ulysse BEILLEVERT
+Conditions d'utilisation : - cc - Merci de conserver les nom et prénom de l'auteur pour toute utilisation
+*/
+
+#conteneur_schema input, #conteneur_schema input:hover, #conteneur_schema2 input, #conteneur_schema2 input:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-variant: small-caps;
+	font-weight: normal;
+	border: 1px dashed #999999;
+	padding: 0;
+	margin: 0;
+	margin-left: -7px;
+	margin-right: 5px;
+}
+.icone_schema {
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+}
+#conteneur_schema {
+	background-color: #FFFFFF;
+	width: 700px;
+	height: 565px;
+	border: solid;
+	border-top: none;
+	border-color:#CCCCCC;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+#conteneur_schema2 {
+	background-color: #FFFFFF;
+	width: 700px;
+	height: 295px;
+	border: solid;
+	border-bottom: none;
+	border-color:#CCCCCC;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+#legende_schema {
+	margin: auto;
+	margin-top: 10px;
+	width: 700px;
+	border: solid;
+	border-color:#CCCCCC;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-variant: small-caps;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.cadrebleu, .cadreorange, .cadrerose, .cadrevert {
+	position: relative;
+	width: 220px;
+	height: 50px;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-variant: small-caps;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+}
+.cadrebleu {
+	background-image: url(cadre_fond_bleu.png);
+} 
+.cadreorange {
+	background-image: url(cadre_fond_orange.png);
+}
+.cadrerose {
+	background-image: url(cadre_fond_rose.png);
+}
+.cadrevert {
+	background-image: url(cadre_fond_vert.png);
+}
+#div_livret {
+	left: 5px;
+	top: 5px;
+}
+#div_admin {
+	left: 238px;
+	top: -60px;
+} 
+#div_cfa {
+	left: 400px;
+	top: -30px;
+} 
+#div_vie_scolaire {
+	left: 400px;
+	top: -30px;
+}
+#div_formation {
+	left: 80px;
+	top: -30px;
+}
+#div_unite_peda {
+	left: 400px;
+	top: -95px;
+}
+#div_responsable_form {
+	left: 80px;
+	top: -225px;
+}
+#trait101 {
+	height: 15px;
+	width: 2px;
+	left: 505px;
+	top: -305px;
+}
+#trait102 {
+	height: 15px;
+	width: 2px;
+	left: 505px;
+	top: -255px;
+}
+#trait103 {
+	height: 2px;
+	width: 100px;
+	left: 300px;
+	top: -230px;
+}
+#trait104 {
+	height: 15px;
+	width: 2px;
+	left: 190px;
+	top: -272px;
+}
+#trait105 {
+	height: 15px;
+	width: 2px;
+	left: 190px;
+	top: -222px;
+}
+#div_parents {
+	left: 238px;
+	top: 5px;
+}
+#div_enseignant {
+	left: 5px;
+	top: 5px;
+} 
+#div_entreprise {
+	left: 470px;
+	top: -60px;
+} 
+#div_classe {
+	left: 5px;
+	top: -60px;
+}
+#div_maitre_apprentissage {
+	left: 470px;
+	top: -125px;
+}
+#div_enseignant_tuteur {
+	left: 5px;
+	top: -125px;
+}
+#div_apprentis {
+	left: 240px;
+	top: 0px;
+}
+#div_suivi_centre {
+	left: 5px;
+	top: 55px;
+}
+#div_suivi_entreprise {
+	left: 470px;
+	top: -10px;
+}
+#icone_apprentris {
+	position: relative;
+	top: -305px;
+	left: 310px;
+	background-image: url(icone_app.png);
+	width: 80px;
+	height: 103px;
+}
+.trait {
+	position: relative;
+	background-color: #000000;
+	font-size: 1px;
+}
+#trait01 {
+	height: 2px;
+	width: 50px;
+	left: 225px;
+	top: -530px;
+}
+#trait02 {
+	height: 15px;
+	width: 2px;
+	left: 115px;
+	top: -570px;
+}
+#trait03 {
+	height: 2px;
+	width: 50px;
+	left: 225px;
+	top: -480px;
+}
+#trait04 {
+	height: 232px;
+	width: 2px;
+	left: 275px;
+	top: -549px;
+}
+#trait05 {
+	height: 2px;
+	width: 50px;
+	left: 420px;
+	top: -846px;
+}
+#trait06 {
+	height: 2px;
+	width: 50px;
+	left: 420px;
+	top: -784px;
+}
+#trait07 {
+	height: 298px;
+	width: 2px;
+	left: 420px;
+	top: -850px;
+}
+#trait08 {
+	height: 226px;
+	width: 2px;
+	left: 348px;
+	top: -1186px;
+}
+#trait09 {
+	height: 10px;
+	width: 2px;
+	left: 348px;
+	top: -1086px;
+}
+#trait10 {
+	height: 37px;
+	width: 2px;
+	left: 190px;
+	top: -1484px;
+}
+#trait11 {
+	height: 2px;
+	width: 77px;
+	left: 115px;
+	top: -1484px;
+}
+#trait12 {
+	height: 38px;
+	width: 2px;
+	left: 115px;
+	top: -1484px;
+}
+#leg_structure {
+	border-bottom: 5px solid #0099FF;
+}
+#leg_acteurs {
+	border-bottom: 5px solid #FF9900;
+}
+#leg_gestion {
+	border-bottom: 5px solid #990066;
+}
+#leg_suivi {
+	border-bottom: 5px solid #339900;
+}
+.blocklegende {
+	padding: 2px;
+	margin: 2px;
+	display: inline;
+}

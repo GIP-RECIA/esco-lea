@@ -1,0 +1,163 @@
+/*
+Thème : LEA - Default 
+Auteur : Damien LECASTREC
+
+*/
+body {
+	padding: 0;
+	margin: 0 0 0 0;
+	text-align: center;
+	width: 100%;
+	font-family: Arial;
+	font-size: 95%;
+	background: #fff;
+}
+
+#conteneur {
+	position: relative;
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	border: 5px solid #bec922 !important;
+	text-align: left;
+	height: 600px;
+}
+
+#header {
+	background: #bec922;
+	width: 950px;
+	float: left;
+}
+
+#popup_aide {
+	font-family: Arial;
+	font-size: 95%;
+	text-align: left;
+	background: #fff;
+}
+
+#bandeau {
+	width: 950px;
+	height: 181px;
+	float: left;
+	margin: 20px 0 5px 0;
+	z-index: -1;
+	background: url("img/bandeau.jpg")
+}
+
+#logo {
+	margin: 20px 0 5px 10px;
+}
+
+#contenu {
+	color: #313131;
+	float: left;
+	margin: 2px 0 0 5px;
+	width: 900px;
+}
+
+#contenu a {
+	text-decoration: none;
+	color: #5896cf;
+}
+
+#contenu a:hover,#contenu a:active {
+	text-decoration: underline;
+}
+
+#contenu img {
+	margin: 0.5em;
+	padding: 0;
+	vertical-align: middle;
+}
+
+#contenu input {
+	background: #FFFFFF;
+	border: 1px solid #5896cf;
+	color: #0c83ae;
+	font-weight: bold;
+	margin-right: 0;
+	padding: 0.2em;
+}
+
+#contenu input:hover,#contenu input:active {
+	background: #FFFFFF;
+	border: 1px solid #5896cf;
+	color: #5896cf;
+}
+
+#contenu textarea {
+	background: #FFFFFF;
+	color: #0c83ae;
+	font-weight: bold;
+	margin-right: 0;
+	padding: 0.2em;
+}
+
+#contenu table {
+	border: 2px solid #cfdcfd !important;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 11px;
+}
+
+#contenu th {
+	background: #529cd1;
+	border-right: 1px dotted #b4b4b4 !important;
+	margin: 0;
+	padding: 0.5em;
+	text-align: left;
+	color: #fff;
+}
+
+#contenu th a {
+	color: #FFCC00;
+}
+
+#contenu tr.selected {
+	background: #ECFFEC;
+}
+
+#contenu td {
+	border-right: 1px dotted #b4b4b4 !important;
+	margin: 0;
+	padding: 0 0.5em 0 0.5em;
+	text-align: left;
+}
+
+#contenu td img {
+	margin: 0 0 0 0;
+	vertical-align: middle;
+}
+
+#contenu tr.titre {
+	color: #CC0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#footer {
+	background: url("img/footer_x.gif") repeat-x;
+	height: 70px;
+	font-size: 12px;
+	color: #124563;
+	width: 950px;
+}
+
+#footer a:link,#footer a:visited {
+	color: #ff12dd;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #0f3f6a;
+	text-decoration: underline;
+}
+
+#footer p {
+	margin: 0 90px 0 2em;
+	padding: 1em 0 0 0;
+}

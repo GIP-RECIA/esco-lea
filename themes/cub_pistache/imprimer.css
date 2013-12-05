@@ -1,0 +1,41 @@
+/*
+Auteur : Faouzi AMIER
+*/
+@import url(commun.css);
+
+body {
+	background:#FFFFFF;
+}
+
+
+#contenu{
+color:#313131;
+float:left;
+margin:10px 5px 10px 5px;
+width:90%;
+background: #FFFFFF;						
+	}
+
+#contenu tr.titre_periode_cfa{
+		background: #669999;						
+		text-align: left;
+		color: red;
+		font-size :16px;
+		font-weight: bold;
+		margin: 0 0 0 0;
+		}
+#contenu tr.titre_periode_entr{
+		background: #669999;						
+		text-align: left;
+		color: red;
+		font-size :16px;
+		font-weight: bold;
+		margin: 0 0 0 0;
+		}
+		
+#contenu table.periode_cfa{
+		border: 2px solid #30dd10 !important;			
+		}
+#contenu table.periode_entr{
+		border: 2px solid #990000 !important;			
+		}			

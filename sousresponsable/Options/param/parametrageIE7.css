@@ -1,0 +1,18 @@
+#table_func div
+{
+
+	margin:0 !important;
+	padding:0 !important;
+}
+
+#table_func div .func_haut
+{
+	text-align: right;
+}
+
+#table_func div .func_mid
+{
+	text-align: center;
+	width:171px;
+	padding-left: 30px !important;
+}

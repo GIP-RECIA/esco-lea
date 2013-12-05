@@ -1,0 +1,102 @@
+/*
+Thème : LEA - CUB
+Auteur : Charles-Ulysse BEILLEVERT
+Conditions d'utilisation : - cc - Merci de conserver les nom et prénom de l'auteur pour toute utilisation
+*/
+
+body {
+	background-image: none;
+}
+#truccontenuimpression {
+	width: 100%;
+	padding-top: 10px;
+}
+#truccontenuimpression a {
+	color: #006699;
+	text-decoration: none;
+	font-weight: bold;
+}
+#contenu {
+margin: 0;
+width:725px;
+	margin: auto;
+	float: none;
+}
+#top_l {
+	background-image: none !important;
+}
+#top_m{
+	background-image: none !important;
+}
+#top_r{
+	background-image: none !important;
+}
+#m_contenu {
+	border: none;
+}
+
+#top_m h1{
+	background: none;
+	}
+
+.cadrebleu, .cadreorange, .cadrerose, .cadrevert {
+	margin-left: 0px !important;
+	margin-left: -470px;
+}
+#sousMenu ul{		
+	display: none;
+}
+#sousMenu2 ul{		
+	display: none;
+}
+#sousMenu3 ul{		
+	display: none;
+}
+
+#bottom_box {
+	border: none;
+}
+
+.trait {
+	margin-left: 0px !important;
+	margin-left: -680px;
+}
+#icone_apprentris {
+margin-left: 0px !important;
+	margin-left: -600px;
+}
+#trait01 {
+margin-left: 0px !important;
+	margin-left: -640px;
+}
+#trait03 {
+margin-left: 0px !important;
+	margin-left: -640px;
+}
+#trait04 {
+margin-left: 0px !important;
+	margin-left: -687px;
+}
+#trait05 {
+margin-left: 0px !important;
+	margin-left: -640px;
+}
+#trait06 {
+margin-left: 0px !important;
+	margin-left: -640px;
+}
+#trait07 {
+margin-left: 0px !important;
+	margin-left: -687px;
+}
+#trait103 {
+margin-left: 0px !important;
+	margin-left: -590px;
+}
+#trait11 {
+margin-left: 0px !important;
+	margin-left: -605px;
+}
+		table.alter {
+		border-left: 2px solid #333333;
+	}

@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>		
+		<!-- TemplateBeginEditable name="doctitle" -->
+		<title>LEA Maitre d'apprentissage</title>
+		<!-- TemplateEndEditable -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
+		<!-- #BeginEditable "Meta" -->
+		<meta name="keywords" content="" />
+		<meta name="special" content="" />		
+		<!-- #EndEditable -->
+			
+		<link rel="stylesheet" type="text/css" 
+		href="<?php echo($LEA_URL.'themes/'.$_SESSION['options_lea']['LEA_THEME'].'/'.'maitreApprentissage.css');?>" />
+
+		<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+				<script type="text/javascript" 
+				src="<?php echo($LEA_URL.'javascript/menu.js');?>">
+				</script>
+	</head>
+<body>
+	
+	<div  id="<?php  if(!isset($_REQUEST['imprimer'])) echo"conteneur" ?>">
+		
+	<?php include($LEA_REP.'menu_maitre_apprentissage.php'); ?>
+			
+		<div id="contenu">
+    		<div id="contents">
+    		  <!-- TemplateBeginEditable name="Contenu" -->Contenu<!-- TemplateEndEditable -->
+			  </div>
+			  		  <div id="bottom_box"> </div>   
+		</div>	
+				
+		<?php include($LEA_REP."footer.php")?>
+		
+	</div>
+	
+</body>
+</html>
